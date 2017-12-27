@@ -15,3 +15,15 @@ print('{0:.3f}'.format(22/7.0)) # 保留3位小数
 print('{0:*^11}'.format('hello'))
 # 基于关键词输出 'Swaroop wrote A Byte of Python'
 print('{name} wrote {book}'.format(name='Swaroop', book='A Byte of Python'))
+# 输出不换行
+print('1234',end='')
+print('5678')
+# 在一行的末尾加上\ 输出不换行。
+s = '9876'\
+    '5321'
+print("s="+s)
+# \n 表示换行。 \t 代表制表符
+print('This is the first line\nThis is the \t second line')
+# 输出原始句子，任何转义符 都将按原始值输出
+#在一个字符串开始 + r
+print(r'This is the first line\nThis is the second line')
