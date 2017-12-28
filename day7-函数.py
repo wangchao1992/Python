@@ -57,7 +57,16 @@ def maximum(x,y):
 print(maximum(5,-19))
 #再看一下这个例子
 def some_fun():
+    '''
+    This is some_fun's docString.
+       函数的第一行逻辑行中的字符串是该函数的 文档字符串（DocString）。
+        该文档字符串所约定的是一串多行字符串
+        文档字符串主要要来 描述函数的参数定义，以及如何使用函数。
+        强烈建议在开发中写DocString
+       '''
     pass
 print(some_fun())
 # Python 中的  pass  语句用于指示一个没有内容的语句块
 # 每一个函数都在其末尾隐含了一句  return None  ，除非你写了你自己的  return  语句
+print(some_fun.__doc__)
+print(print.__doc__)# 看一下系统的 文档字符串怎么写

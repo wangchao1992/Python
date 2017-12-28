@@ -23,3 +23,4 @@ func(x)
 print('x1 is still', x1)
 print('y = {},z = {}'.format(y,z))
 #发现没有，  x1 ,y,z 定义在函数内部 ，在函数外部也可以调用
+
