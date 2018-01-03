@@ -53,3 +53,26 @@ for name, address in ab.items():
 ab['Guido'] = 'guido@python.org'
 if 'Guido' in ab:
     print("\nGuido's address is", ab['Guido'])
+# ------------------------------切片
+print('{0:*^50}'.format('切片'))
+shoplist = ['apple', 'mango', 'carrot', 'banana']
+name = 'swaroop'
+print('Item -1 is', shoplist[-1])
+print('Item -2 is', shoplist[-2])
+print('Character 0 is', name[-1])
+print('characters 1 to 3 is', name[1:3])
+print('characters 2 to end is', name[2:])
+print('characters 1 to -1 is', name[1:-1])
+print('characters start to end is', name[:])
+#========================  集合 -=-=-==-=-=-=-=-=-=-=-=-====
+print('{0:*^50}'.format('集合'))
+bri = set(['brazil','russia','india'])
+print('india'in bri)
+bric = bri.copy()
+bric.add('china')
+bric.remove('russia')
+print(bric.issuperset(bri)) # 是否是目标对象的父集
+# 取交集
+print(bri.intersection(bric))
+
+

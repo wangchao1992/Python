@@ -2,7 +2,7 @@
 # Python里以#号开始表示注释。
 # 第一行表明该文件的格式。
 print("hello world")# 在控制台输出hello world
-print("你好，世界")#把第一行删掉试试，会不会报错？SyntaxError: Non-ASCII character
+print("你好，世界")
 
 #数据类型  有两种 ：数字 和字符串
 # 数字
