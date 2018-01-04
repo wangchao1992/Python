@@ -9,7 +9,7 @@ class Person:
 
     def say_Hi(self):
         print('hi ',self.name)
-class Student(Person):#继承Person
+class Student(Person):#继承Person 。  支持多继承 ， 例 class Student(Person,Animal)：
     def __init__(self,name,age,stuNo):
         Person.__init__(self,name,age)
         self.stuNo = stuNo
