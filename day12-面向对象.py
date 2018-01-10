@@ -17,7 +17,7 @@ class Student(Person):#继承Person 。  支持多继承 ， 例 class Student(P
     def __init__(self,name,age,stuNo):
         Person.__init__(self,name,age) # 调用父类的初始化方法
         self.stuNo = stuNo
-        print(self._privatevar)
+        print(self.publicvar)
     def say_Hi(self):#重写say_hi()
         print('say_hi to {},in the Student'.format(self.name))
 
