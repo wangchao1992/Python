@@ -6,3 +6,5 @@ z =(*x,*y)
 print(x)
 print(y)
 print(z)
+str = "1235"
+len(str)

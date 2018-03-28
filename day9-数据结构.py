@@ -64,6 +64,7 @@ print('characters 1 to 3 is', name[1:3])
 print('characters 2 to end is', name[2:])
 print('characters 1 to -1 is', name[1:-1])
 print('characters start to end is', name[:])
+print('xxxx', name[::-1])
 #========================  集合 -=-=-==-=-=-=-=-=-=-=-=-====
 print('{0:*^50}'.format('集合'))
 bri = set(['brazil','russia','india'])
